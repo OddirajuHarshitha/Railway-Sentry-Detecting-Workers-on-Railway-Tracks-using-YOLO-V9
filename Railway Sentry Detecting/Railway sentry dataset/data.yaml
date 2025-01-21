@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Head', 'Helmet', 'Person']
+
+roboflow:
+  workspace: prathyusha-qg6dj
+  project: railway-sentry-k3nmv
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prathyusha-qg6dj/railway-sentry-k3nmv/dataset/1
